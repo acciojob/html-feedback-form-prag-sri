@@ -9,10 +9,10 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Feedback Form</h1>
-	<form>
+	<form method="get">
 		<div>
             <label for="name">Name</label>
-            <input type="text" placeholder="Enter Name" id="name" name="username" required pattern="[A-Za-z]{3,50}">
+            <input type="text" placeholder="Enter Name" id="name" name="username" minlength="3" maxlength="50">
         </div>
 		<div>
 			 <label for="portfolio">Portfolio</label>
